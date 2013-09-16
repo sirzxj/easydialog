@@ -60,14 +60,15 @@ EasyDialog.alert('EasyDialog Demo',{
 	mask:false,
 },function(e){});
 ```
-其中的config的参数完全和KISSY的overlay相同([Overlay的参数配置](http://docs.kissyui.com/docs/html/api/component/overlay/overlay.html))，其中，对于也会新增几个配置
+其中的config的参数完全和KISSY的overlay相同([Overlay的参数配置](http://docs.kissyui.com/docs/html/api/component/overlay/overlay.html))
+其中，也会也会新增几个配置
 
 ##### title
 dialog的标题，提示的标题
 ##### idNeedDrag
 配置是否需要拖动
 ##### theme
-主题，目前提供的主题有"gallery/easydialog/1.0/theme/theme-tb.css","gallery/easydialog/1.0/theme/theme-tb.css"，分别是淘宝买家中心和tmall的风格，默认为"gallery/easydialog/1.0/theme/theme-tb.css"，也可以自定义主题，当theme赋值为0的时候就不加载主题，大家也可以将自己的主题推送过来供大家使用
+主题，目前提供的主题有"gallery/easydialog/1.0/theme/theme-tb.css","gallery/easydialog/1.0/theme/theme-tb.css"，分别是淘宝买家中心和tmall的风格，默认为"gallery/easydialog/1.0/theme/theme-tb.css"，也可以自定义主题，当theme赋值为0的时候就不加载主题，大家也可以 **将自己的主题推送过来供大家使用**
 ##### inputType
 inputType 是prompt 专属的方法，用来显示约定输入框，默认为input，当值不为false时，展示为textarea
 

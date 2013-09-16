@@ -148,13 +148,13 @@ KISSY.add('gallery/easydialog/1.0/alert',function(S,Base,Node,Common){
 	var $ = Node.all;
 
 	var TPL_BODY = '<div class="ks-easy-dialog ks-easy-dialog-ok">'+
-						'<div class="ks-easy-dialog-head">{title}</div>'+
-						'<div class="ks-easy-dialog-body">'+
-							'<div class="ks-easy-dialog-title">{content}</div>'+
-							'<p class="ks-easy-dialog-btn-content">'+
-								'<button class="ks-easy-dialog-yes J_KsDialogOkBtn J_KsEasyDialogBtn">确定</button></p>'+
-						'</div>'
-					'</div>';
+		'<div class="ks-easy-dialog-head">{title}</div>'+
+		'<div class="ks-easy-dialog-body">'+
+			'<div class="ks-easy-dialog-title">{content}</div>'+
+			'<p class="ks-easy-dialog-btn-content">'+
+				'<button class="ks-easy-dialog-yes J_KsDialogOkBtn J_KsEasyDialogBtn">确定</button></p>'+
+		'</div>'+
+	'</div>';
 
 	
 	
