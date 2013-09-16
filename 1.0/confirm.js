@@ -11,7 +11,7 @@ KISSY.add(function(S,Base,Node,Common){
 					'<div class="ks-easy-dialog-title">{content}</div>'+
 					'<p class="ks-easy-dialog-btn-content"><button class="ks-easy-dialog-yes J_KsDialogOkBtn J_KsEasyDialogBtn" >确定</button>'+
 						'<button class="ks-easy-dialog-no J_KsDialogNoBtn J_KsEasyDialogBtn">取消</button></p>'+
-					'</div>'
+					'</div>'+
 					'</div>';
 	var DOMAIN = document.domain;
 	
