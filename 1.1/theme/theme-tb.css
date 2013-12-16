@@ -1,0 +1,137 @@
+/**
+ * @fileoverview Dialog的主题，淘宝交易的风格
+ * @author bofang.zxj<bofang.zxj@taobao.com>
+ * @module easydialog
+ **/
+a,input,div,p{
+	margin: 0;
+	padding:0;
+}
+.ks-easy-dialog a,.ks-easy-dialog div{
+	outline: none;
+}
+.ks-easy-dialog{
+	height:100%;
+	margin-top:1px;
+	border:solid 3px #eee;
+	background:#fff;
+	font-size:14px;
+}
+.ks-easy-dialog-head{
+	height:28px;
+	background: #eee;
+	line-height:28px;
+	padding-left:10px;
+	font-size:14px;
+	font-weight:700;
+}
+.ks-easy-dialog-body{
+	padding: 20px;
+}
+
+
+.ks-easy-dialog-btn-content{
+	text-align:right;
+	padding:20px 20px 0;
+}
+.ks-easy-dialog-yes,.ks-easy-dialog-no{
+	background: url(bg.png) -2px -3px;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	vertical-align:middle;
+}
+.ks-easy-dialog-no{
+	background-position:-2px -28px;
+	color:#404040;
+	margin-left:10px;
+}
+
+.ks-easy-dialog-prompt-txt{
+	width:95%;
+	height:25px;
+	line-height:25px;
+	z-index: 20000;
+	margin:0 auto;
+	display: block;
+}
+.ks-easy-dialog-prompt-textarea{
+	width:95%;
+	margin:0 auto;
+	height: 80px;
+}
+.ks-easy-dialog-txt{
+	padding: 10px 0;
+	width: 100%;
+}
+.ks-ext-close{
+	width:22px;
+	height:22px;
+	display:inline-block;
+	text-indent:-9999px;
+	position:absolute;
+	top:5px;
+	right:10px;
+	background: url(bg.png) -74px -5px;
+}
+
+.ks-ext-close-x{
+	text-indent:-9999px;
+}
+.ks-ext-close:hover{
+	background-position:-74px -32px;
+}
+.ks-ext-mask{
+	opacity: 0.25;
+	background:#000;
+	filter:alpha(Opacity=25);
+}
+
+
+/**
+ * Compatible with the  kissy 1.4 
+ */
+
+
+
+
+
+.ks-easydialog-dialog-close ,.ks-easydialog-ext-close{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: url(http://gtms02.alicdn.com/tps/i2/T1QeKTFfleXXcWo2bv-147-200.png) -74px -5px;
+}
+.ks-easydialog-dialog-close:hover,.ks-easydialog-ext-close:hover{
+    background-position: -74px -32px;
+}
+
+.ks-easydialog-overlay-hidden {
+    visibility: hidden;
+}
+
+.ks-easydialog-overlay-mask-hidden {
+    display: none;
+}
+
+.ks-easydialog-overlay-shown {
+    visibility: visible;
+}
+
+.ks-easydialog-overlay-mask-shown{
+    display: block;
+}
+.ks-easydialog-dialog{
+    outline: none;
+}
