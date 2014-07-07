@@ -60,7 +60,7 @@ EasyDialog.alert('EasyDialog Demo',{
 	mask:false,
 },function(e){});
 ```
-其中的config的参数完全和KISSY的overlay相同([Overlay的参数配置](http://docs.kissyui.com/docs/html/api/component/overlay/overlay.html))，其中，对于也会新增几个配置
+其中的config的参数完全和KISSY的overlay相同([Overlay的参数配置](http://docs.kissyui.com/1.4/docs/html/api/overlay/overlay.html))，其中，对于也会新增几个配置
 
 ##### title
 dialog的标题，提示的标题
